@@ -1,0 +1,25 @@
+# Netlify deployment config — static site, no build step.
+# Headers and cache policy live in _headers (next to this file).
+
+[build]
+  publish = "."
+
+[[redirects]]
+  # Convenience: /accueil → /
+  from = "/accueil"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  # Trailing-slash variants of the page files
+  from = "/contact/"
+  to = "/contact.html"
+  status = 301
+[[redirects]]
+  from = "/equipe/"
+  to = "/equipe.html"
+  status = 301
+[[redirects]]
+  from = "/un-certain-regard/"
+  to = "/un-certain-regard.html"
+  status = 301

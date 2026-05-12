@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test / audit output
+coverage/
+test-results/
+playwright-report/
+.lighthouseci/
+
+# Netlify CLI artefacts
+.netlify/
+
+# Local env (just in case)
+.env
+.env.local

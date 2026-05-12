@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# NOTE: replace the host once the new site replaces the existing WordPress install
+Sitemap: https://lunetteriedesrois.ch/sitemap.xml
